@@ -24,3 +24,7 @@ one available.  If you have valgrind installed, you can check for
 memory leaks by running `make checkmem`.
 
 Running `make` will build and do a few spot checks on the system.
+
+# Python Version
+
+Alternative implementation in Python for my own amusement.
