@@ -135,7 +135,6 @@ number_t consume_num(const char *src, const int proceed) {
 
 int process_tokens(token_t *head) {
     token_t *cur = head;
-    char *endptr;
     number_t total = newnum(0, 1);
     operator_t op = add;
     if(!head)
