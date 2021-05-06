@@ -9,4 +9,5 @@ checkmem: challenge
 	cat testinput.txt | valgrind --leak-check=yes --undef-value-errors=no ./challenge
 
 pythonver: pythonver.py
-	cat testinput.txt | python pythonver.py
+	cat testinput.txt | python pythonver.py > /tmp/pythonoutput.txt
+	diff /tmp/pythonoutput.txt ./testoutput.txt
