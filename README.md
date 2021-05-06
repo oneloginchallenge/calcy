@@ -16,3 +16,11 @@ Improper fractions and whole numbers are also allowed as operands
 = 1_7/8
 ? 2_3/8 + 9/8
 3_1/2
+
+# Notes
+
+Tested on OpenBSD, Linux, and MacOS.  Would test on Windows if I had
+one available.  If you have valgrind installed, you can check for
+memory leaks by running `make checkmem`.
+
+Running `make` will build and do a few spot checks on the system.
